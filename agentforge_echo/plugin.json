@@ -1,0 +1,21 @@
+{
+  "schema_version": "1",
+  "id": "echo",
+  "display_name": "Echo",
+  "version": "1.0.0",
+  "namespace": "project.echo",
+  "backend": {
+    "entry_point": "agentforge_echo.plugin:register",
+    "routes_prefix": "/api/echo",
+    "resource_providers": []
+  },
+  "agents": [
+    { "name": "echo-agent", "path": "agentforge_echo/agents/echo_agent" }
+  ],
+  "frontend": {
+    "remote_url": "",
+    "nav_label": "Echo",
+    "nav_icon": "Megaphone",
+    "route": "/echo"
+  }
+}
