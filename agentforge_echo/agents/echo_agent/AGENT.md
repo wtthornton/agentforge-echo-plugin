@@ -1,5 +1,6 @@
 ---
 name: echo-agent
+namespace: project.echo.echo-agent
 description: Deterministic string-reversal agent. Used as the canonical test fixture for AgentForge's plugin system — no LLM, no network, no flake.
 keywords: [echo, reverse, test, smoke]
 utterances:

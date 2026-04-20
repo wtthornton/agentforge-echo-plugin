@@ -11,4 +11,4 @@ def test_runner_empty_string():
 
 def test_runner_is_deterministic():
     r = EchoRunner()
-    assert r.run("agentforge") == r.run("agentforge") == "egrofnega"
+    assert r.run("agentforge") == r.run("agentforge") == "egroftnega"
