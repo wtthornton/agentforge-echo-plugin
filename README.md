@@ -1,6 +1,6 @@
 # agentforge-echo-plugin
 
-The canonical **test rig** for AgentForge's plugin system. Filed as [TAP-753](https://linear.app/tappscodingagents/issue/TAP-753).
+The canonical **test rig** for AgentForge's plugin system. Filed as [TAP-753](https://linear.app/tappscodingagents/issue/TAP-753); published to GitHub and wired into AgentForge CI under [TAP-754](https://linear.app/tappscodingagents/issue/TAP-754).
 
 This plugin does nothing useful in production. Its only job is to exercise every plugin-system hook point — entry-point discovery, `register(app)` callback, route mounting, agent discovery, event bus — **deterministically, with zero external dependencies**. When this plugin's smoke test breaks, the plugin system broke.
 
