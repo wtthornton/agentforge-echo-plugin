@@ -9,7 +9,6 @@ utterances:
   - flip the text
 model: sonnet
 memory_profile: none
-runner: agentforge_echo.agents.echo_agent.runner:EchoRunner
 ---
 
 # Echo Agent
